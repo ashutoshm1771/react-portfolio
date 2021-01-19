@@ -1,0 +1,33 @@
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 1000ms erase-in;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(2.07);
+}
+
+.card__info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 50px;
+    padding-top: 50px;
+    border: 1;
+}
+
+.card__info > h2 {
+    text-decoration: dashed;
+    font-family: 'Agency FB';
+    color: white;
+    position: absolute;
+    left: auto;
+    right: 40%;
+    top: 25%;
+    bottom: auto;
+    font-size: 40px;
+    font-weight: 600;
+}

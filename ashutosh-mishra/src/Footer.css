@@ -1,0 +1,27 @@
+.footer {
+    border-top: 1px transparent lightgray;
+    padding :20px;
+    background-color: #f7f7f7;
+    text-align: center;
+    opacity: 0.5;
+    position: absolute;
+    top: 71vh;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms erase-in;
+}
+
+.footer:hover{
+    transform: scale(1.07);
+}
+
+.footer > a {
+    text-decoration:dashed;
+    text-decoration-color: aqua;
+    font-family: 'Arial';
+    padding: 5px;
+    font-size: 24px;
+}
+
+.footer > a > p{
+    color:black;
+}

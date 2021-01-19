@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* The following will size the video to fit the full container. Not necessary, just nice.*/
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.app div {
+  position: relative;
+  z-index: 1;
+}
+
+.app div span {
+  margin-left: 200px;
+}
+
+@media (max-width: 1500px) {
+  .app video{
+    display: none;
+  }
+  .app {
+    background: url("img/videoframe1.jpg");
+    background-size: cover;
+    background-attachment: absolute;
+  }
+}

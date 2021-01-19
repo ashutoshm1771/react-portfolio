@@ -1,0 +1,59 @@
+.project {
+    margin: 20px;
+    border-radius: 10px;
+    height:100px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms erase-in;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.project:hover{
+    transform: scale(1.07);
+}
+
+.project__info {
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
+
+.project__info > span {
+    text-decoration: dashed;
+    font-family: 'Agency FB';
+    color: pink;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: 140%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project__info > h1 {
+    text-decoration: dashed;
+    font-family: 'Agency FB';
+    color: #f5968c;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: 25%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project__info > a{
+    text-decoration: dashed;
+    font-size: smaller;
+    color: white;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: 50%;
+    bottom: auto;
+    font-size: 40px;
+    font-weight: 60;
+}

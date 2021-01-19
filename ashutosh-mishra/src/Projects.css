@@ -1,0 +1,15 @@
+.projects > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    background-color: #ff7779;
+    color: white;
+    margin-top: 10px;
+    right: 10px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.projects button:hover {
+    background-color: white;
+    color: #ff7779;
+}
