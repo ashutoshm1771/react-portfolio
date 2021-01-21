@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Footer from "./Footer";
 
 function App() {
-  const [projects,setProjects] = useState(false);
+  const [projects,setProjects] = useState(false); // would be used if screen content was to be changed without reforming the url.
 
   useEffect(() => {
     const video = document.getElementById("myVideo");
@@ -20,7 +20,7 @@ function App() {
             <source src="vids/vid.mp4" type="video/mp4" />
           </video>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/"> 
               <Header />
             </Route>
             <Route path="/projects">
